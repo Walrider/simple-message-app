@@ -5,9 +5,6 @@ const moment = require('moment');
 const uuidv4 = require('uuid/v4');
 const {client} = require('../db/redis');
 
-const Dispatcher = require('../lib/Dispatcher');
-const Worker = require('../lib/Worker');
-
 router.post('/messages/echoAtTime', async (req, res) => {
     try {
         //parse body and exclude -uuid-

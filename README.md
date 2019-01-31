@@ -2,9 +2,10 @@ Simple web server printing messages at given time
 
 Startup:
 
-1. Rename `server/config/config.example.json` to `server/config/config.json`.
+1. Run  `npm install` from project root
+2. Rename `server/config/config.example.json` to `server/config/config.json`.
 Feel free to change any values there according to your preferences.
-2. Start server with `npm start` command
+3. Start server with `npm start` command
 
 To create a message send POST request to `/api/messages/echoAtTime`
 with 'message' and 'time' parameters in the body. Time should be in `YYYY-MM-DD HH:mm:ss:SSS` format.
