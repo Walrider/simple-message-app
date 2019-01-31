@@ -1,0 +1,16 @@
+{
+  "test": {
+    "APP_PORT": 3000,
+    "REDIS_PORT": 6379,
+    "REDIS_HOST": "127.0.0.1",
+    "REDIS_MESSAGES_SET": "MessagesSet",
+    "REDIS_MESSAGE_QUEUE": "MessageQueue"
+  },
+  "development": {
+    "APP_PORT": 3000,
+    "REDIS_PORT": 6379,
+    "REDIS_HOST": "127.0.0.1",
+    "REDIS_MESSAGES_SET": "MessagesSet",
+    "REDIS_MESSAGE_QUEUE": "MessageQueue"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "message-print-redis-api",
+  "version": "1.0.0",
+  "description": "Simple web server printing messages at given time",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "11.7.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "redis": "^2.8.0",
+    "redis-promisify": "^0.1.2",
+    "uuid": "^3.3.2"
+  }
+}
